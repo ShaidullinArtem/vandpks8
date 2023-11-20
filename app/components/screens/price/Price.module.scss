@@ -1,0 +1,47 @@
+
+.wrapper {
+  @apply px-6;
+
+  .title {
+    @apply my-4 text-5xl text-yellow-500;
+  }
+
+  .desctiption {
+    @apply my-4 text-black text-lg font-semibold text-center;
+  }
+
+  .title2 {
+    @apply my-4 text-xl text-black font-semibold;
+  }
+
+  .description2 {
+    @apply my-4 text-black text-base font-medium;
+  }
+
+  .table-wrapper {
+    @apply my-8 relative overflow-x-auto shadow-md sm:rounded-lg;
+
+    table {
+      @apply w-full text-sm text-left text-black;
+
+      thead {
+        @apply bg-black/80 text-xs text-white uppercase dark:text-white;
+        th {
+          @apply px-6 py-4;
+        }
+      }
+
+      tbody {
+        @apply bg-white;
+
+        tr {
+          @apply bg-white border-2 border-gray-200;
+
+          td {
+            @apply bg-white border-2 border-gray-200 text-black text-base font-semibold px-6 py-4;
+          }
+        }
+      }
+    }
+  }
+}

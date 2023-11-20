@@ -1,0 +1,10 @@
+
+.container {
+  main {
+    @apply px-2 py-4;
+
+    .video {
+      @apply my-4 hidden lg:flex flex-row justify-center items-center;
+    }
+  }
+}

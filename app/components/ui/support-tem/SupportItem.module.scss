@@ -1,0 +1,17 @@
+
+.details {
+  @apply border-[1px] border-gray-500 px-4 my-4 rounded-lg;
+
+  .title {
+    @apply text-black text-base font-semibold my-4;
+  }
+
+  &[open] {
+    padding: 0.5em;
+  }
+
+  &[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+  }
+}

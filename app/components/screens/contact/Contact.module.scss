@@ -1,0 +1,16 @@
+
+.wrapper {
+  @apply px-6;
+
+  .title {
+    @apply my-4 text-5xl text-yellow-500;
+  }
+
+  .grphic {
+    @apply my-4 text-black text-base font-medium;
+  }
+
+  .map {
+    @apply w-full h-screen rounded-lg;
+  }
+}

@@ -1,0 +1,24 @@
+.header {
+  @apply py-4;
+
+  img {
+    @apply hidden xl:block;
+  }
+
+  .hero {
+    @apply flex flex-row justify-center gap-x-20 items-center;
+
+    h1 {
+      @apply text-black text-3xl 2xl:text-6xl text-center;
+
+      span {
+        @apply text-yellow-500;
+      }
+    }
+  }
+
+  .description {
+    @apply my-8 text-black text-lg font-semibold text-center;
+  }
+}
+

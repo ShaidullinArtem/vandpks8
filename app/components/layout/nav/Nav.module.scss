@@ -1,0 +1,9 @@
+
+.nav {
+  @apply bg-black/90 text-center text-xs lg:text-base text-white flex flex-row justify-center gap-x-2 lg:gap-x-12 px-6 py-2;
+
+  > a {
+    @apply text-white;
+    text-decoration: none;
+  }
+}
